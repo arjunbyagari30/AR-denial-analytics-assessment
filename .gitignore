@@ -1,0 +1,34 @@
+### Java / Maven ###
+target/
+*.class
+*.log
+*.log.*
+hs_err_pid*.log
+replay_pid*.log
+backend/.runtime-mysql/
+
+### Node ###
+node_modules/
+dist/
+.vite/
+coverage/
+.npm/
+.eslintcache
+*.tsbuildinfo
+npm-debug.log*
+
+### IDE / OS ###
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### Local environment ###
+.env
+.env.*
+!.env.example
